@@ -1,9 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { Station, StationResponse } from "../types";
 
-/**
- * Fetches all stations for a given network ID
- */
 const fetchStations = async (networkId: string): Promise<{
   stations: Station[];
   networkName: string;
@@ -22,9 +19,6 @@ const fetchStations = async (networkId: string): Promise<{
   };
 };
 
-/**
- * Hook that provides stations for a given network ID
- */
 export const useStations = (networkId?: string) => {
   return useQuery({
     queryKey: ["stations", networkId],

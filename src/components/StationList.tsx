@@ -71,7 +71,6 @@ const StationList = () => {
   );
 };
 
-// Memoized version of StationCard to prevent re-renders
 const MemoizedStationCard = memo(StationCard);
 
 export default StationList;
