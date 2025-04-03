@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Estilos personalizados para centrar el contenido */
+.container {
+  @apply mx-auto px-4 max-w-7xl;
+}
+
+/* Centrado del texto en el encabezado */
+header h1 {
+  @apply text-center;
+}
+
+/* Ajuste de márgenes para el contenido principal */
+main {
+  @apply mx-auto max-w-5xl;
+}
+
+/* Espaciado para las secciones */
+section {
+  @apply my-8;
+} 

@@ -1,0 +1,54 @@
+{
+    "app": {
+      "title": "Bike Spain Explorer",
+      "description": "Explore shared bicycle networks in Spain and discover real-time availability of each station."
+    },
+    "network": {
+      "list": {
+        "title": "Bicycle networks in Spain",
+        "showing": "Showing {{count}} network",
+        "showing_plural": "Showing {{count}} networks",
+        "searchPlaceholder": "Search by name, city or company",
+        "noResults": "No bicycle networks found with that criteria",
+        "loading": "Loading available networks...",
+        "error": "Error loading bicycle networks"
+      },
+      "card": {
+        "company": "Company",
+        "system": "System",
+        "notAvailable": "Not available"
+      }
+    },
+    "station": {
+      "list": {
+        "title": "Loading network...",
+        "stations": "stations",
+        "searchPlaceholder": "Search station",
+        "noResults": "No stations found with that criteria",
+        "loading": "Loading stations...",
+        "error": "Error loading stations"
+      },
+      "card": {
+        "freeBikes": "Free bikes",
+        "emptySlots": "Empty slots",
+        "address": "Address",
+        "seeOnGoogleMaps": "View on Google Maps"
+      }
+    },
+    "availability": {
+      "label": "Availability",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "unknown": "Unknown"
+    },
+    "buttons": {
+      "back": "Back"
+    },
+    "notFound": {
+      "title": "404",
+      "message": "Oops! Page not found",
+      "returnHome": "Return to Home"
+    }
+  }
+  

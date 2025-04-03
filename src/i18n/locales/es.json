@@ -1,0 +1,54 @@
+{
+    "app": {
+      "title": "Bici España Explorer",
+      "description": "Explora las redes de bicicletas compartidas en España y descubre la disponibilidad en tiempo real de cada estación."
+    },
+    "network": {
+      "list": {
+        "title": "Redes de bicicletas en España",
+        "showing": "Mostrando {{count}} red",
+        "showing_plural": "Mostrando {{count}} redes",
+        "searchPlaceholder": "Buscar por nombre, ciudad o empresa",
+        "noResults": "No se encontraron redes de bicicletas con ese criterio",
+        "loading": "Cargando redes disponibles...",
+        "error": "Error al cargar las redes de bicicletas"
+      },
+      "card": {
+        "company": "Empresa",
+        "system": "Sistema",
+        "notAvailable": "No disponible"
+      }
+    },
+    "station": {
+      "list": {
+        "title": "Cargando red...",
+        "stations": "estaciones",
+        "searchPlaceholder": "Buscar estación",
+        "noResults": "No se encontraron estaciones con ese criterio",
+        "loading": "Cargando estaciones...",
+        "error": "Error al cargar las estaciones"
+      },
+      "card": {
+        "freeBikes": "Bicicletas libres",
+        "emptySlots": "Espacios vacíos",
+        "address": "Dirección",
+        "seeOnGoogleMaps": "Ver en Google Maps"
+      }
+    },
+    "availability": {
+      "label": "Disponibilidad",
+      "low": "Baja",
+      "medium": "Media",
+      "high": "Alta",
+      "unknown": "Desconocida"
+    },
+    "buttons": {
+      "back": "Volver"
+    },
+    "notFound": {
+      "title": "404",
+      "message": "¡Vaya! Página no encontrada",
+      "returnHome": "Volver a Inicio"
+    }
+  }
+  
