@@ -19,7 +19,7 @@ const App = () => (
 
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="/BKT" element={<Index />} />
           <Route path="/network/:networkId" element={<NetworkDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
